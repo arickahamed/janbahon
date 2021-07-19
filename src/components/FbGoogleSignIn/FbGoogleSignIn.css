@@ -1,0 +1,37 @@
+.icon-container {
+    width: 30%;
+    display: flex;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 20px;
+    justify-content: flex-start;
+    padding: 0.5% 0.4%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.facebook {
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.icon-name {
+    display: block;
+    text-align: center;
+}
+
+/* making responsive for mobile devices */
+@media all and (max-width: 700px) {
+    .icon-container {
+        width: 95%;
+        padding: 2%;
+    }
+    .facebook {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

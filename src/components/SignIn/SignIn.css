@@ -1,0 +1,38 @@
+.signin-container {
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+    width: 30%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: left;   
+}
+
+form {
+    margin: 7%;
+}
+
+.bottom-part {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.check-box {
+    display: flex;
+    justify-content: flex-start;
+}
+
+p{
+    font-size: small;
+}
+
+/* making responsive for mobile devices */
+@media all and (max-width: 700px) {
+    .signin-container {
+        width: 95%;
+        height: auto;
+    }
+}

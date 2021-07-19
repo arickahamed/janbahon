@@ -1,0 +1,56 @@
+
+.home-container {
+    height: 80vh;
+    background-image: url(../../images/Bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgDivStyle {
+    width: 15%;
+    height: 40%;
+    background-color: #fff;
+    padding-top: 50px;
+    border-radius: 4%;
+    margin: 0 1%;
+
+}
+
+img {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.vehicle-name {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #333030;
+    cursor: pointer;
+}
+
+/* responsive for mobile device */
+@media all and (max-width: 700px) {
+    .home-container {
+        height: max-content;
+        background-image: url(../../images/Bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: block;
+    }
+    .imgDivStyle {
+        width: 70%;
+        background-color: #fff;
+        padding-top: 50px;
+        border-radius: 4%;
+        margin: 10px auto;
+    
+    }
+}
